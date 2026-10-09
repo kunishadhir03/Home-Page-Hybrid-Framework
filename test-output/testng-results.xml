@@ -2,54 +2,54 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-08T19:40:57 IST" name="DemoWebShopSuite" finished-at="2026-10-08T19:41:59 IST" duration-ms="61745">
+  <suite started-at="2026-10-09T09:19:32 IST" name="DemoWebShopSuite" finished-at="2026-10-09T09:20:37 IST" duration-ms="64792">
     <groups>
     </groups>
-    <test started-at="2026-10-08T19:40:57 IST" name="HomePageTests" finished-at="2026-10-08T19:41:59 IST" duration-ms="61745">
+    <test started-at="2026-10-09T09:19:32 IST" name="HomePageTests" finished-at="2026-10-09T09:20:37 IST" duration-ms="64792">
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:40:57 IST" name="setup" finished-at="2026-10-08T19:41:07 IST" duration-ms="10517" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:32 IST" name="setup" finished-at="2026-10-09T09:19:41 IST" duration-ms="8382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyBooksMenu()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:07 IST" name="verifyBooksMenu" finished-at="2026-10-08T19:41:08 IST" duration-ms="154" status="PASS">
+        <test-method signature="verifyBooksMenu()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:41 IST" name="verifyBooksMenu" finished-at="2026-10-09T09:19:41 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBooksMenu -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:08 IST" name="teardown" finished-at="2026-10-08T19:41:08 IST" duration-ms="631" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:41 IST" name="teardown" finished-at="2026-10-09T09:19:41 IST" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:08 IST" name="setup" finished-at="2026-10-08T19:41:16 IST" duration-ms="8228" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:41 IST" name="setup" finished-at="2026-10-09T09:19:48 IST" duration-ms="6348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:16 IST" name="verifyHomePageTitle" finished-at="2026-10-08T19:41:17 IST" duration-ms="44" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:48 IST" name="verifyHomePageTitle" finished-at="2026-10-09T09:19:48 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:17 IST" name="teardown" finished-at="2026-10-08T19:41:18 IST" duration-ms="1936" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:48 IST" name="teardown" finished-at="2026-10-09T09:19:48 IST" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:18 IST" name="setup" finished-at="2026-10-08T19:41:24 IST" duration-ms="5866" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:48 IST" name="setup" finished-at="2026-10-09T09:19:55 IST" duration-ms="6832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifySearchBox()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:24 IST" name="verifySearchBox" finished-at="2026-10-08T19:41:24 IST" duration-ms="42" status="PASS">
+        <test-method signature="verifySearchBox()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:55 IST" name="verifySearchBox" finished-at="2026-10-09T09:19:55 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchBox -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:24 IST" name="teardown" finished-at="2026-10-08T19:41:25 IST" duration-ms="374" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-09T09:19:55 IST" name="teardown" finished-at="2026-10-09T09:19:55 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.SearchPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:25 IST" name="setup" finished-at="2026-10-08T19:41:31 IST" duration-ms="5075" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:19:56 IST" name="setup" finished-at="2026-10-09T09:20:02 IST" duration-ms="5436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:31 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:32 IST" duration-ms="1099" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:02 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-09T09:20:03 IST" duration-ms="1295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:32 IST" name="teardown" finished-at="2026-10-08T19:41:32 IST" duration-ms="406" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:03 IST" name="teardown" finished-at="2026-10-09T09:20:03 IST" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:32 IST" name="setup" finished-at="2026-10-08T19:41:37 IST" duration-ms="5189" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:03 IST" name="setup" finished-at="2026-10-09T09:20:10 IST" duration-ms="6804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:37 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:38 IST" duration-ms="1050" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:10 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-09T09:20:12 IST" duration-ms="2078" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:38 IST" name="teardown" finished-at="2026-10-08T19:41:39 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:12 IST" name="teardown" finished-at="2026-10-09T09:20:13 IST" duration-ms="835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:39 IST" name="setup" finished-at="2026-10-08T19:41:44 IST" duration-ms="4904" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:13 IST" name="setup" finished-at="2026-10-09T09:20:19 IST" duration-ms="5848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:44 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:44 IST" duration-ms="334" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:19 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-09T09:20:20 IST" duration-ms="1409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,15 +98,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:44 IST" name="teardown" finished-at="2026-10-08T19:41:44 IST" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:20 IST" name="teardown" finished-at="2026-10-09T09:20:21 IST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:44 IST" name="setup" finished-at="2026-10-08T19:41:51 IST" duration-ms="6714" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:21 IST" name="setup" finished-at="2026-10-09T09:20:27 IST" duration-ms="5833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:51 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:51 IST" duration-ms="309" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:27 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-09T09:20:28 IST" duration-ms="1560" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:51 IST" name="teardown" finished-at="2026-10-08T19:41:52 IST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:28 IST" name="teardown" finished-at="2026-10-09T09:20:29 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:52 IST" name="setup" finished-at="2026-10-08T19:41:57 IST" duration-ms="5386" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:29 IST" name="setup" finished-at="2026-10-09T09:20:35 IST" duration-ms="5859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:57 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:58 IST" duration-ms="1220" status="PASS">
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:35 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-09T09:20:36 IST" duration-ms="1381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:58 IST" name="teardown" finished-at="2026-10-08T19:41:59 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-09T09:20:36 IST" name="teardown" finished-at="2026-10-09T09:20:37 IST" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

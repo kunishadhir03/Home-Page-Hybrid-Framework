@@ -3,6 +3,7 @@ package tests;
 import java.io.IOException;
 
 
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -11,6 +12,7 @@ import BaseTest.BaseTest;
 import pages.HomePage;
 import pages.SearchPage;
 import utilities.ExcelUtility;
+import utilities.ScreenshotUtility;
 
 public class SearchPageTest extends BaseTest{
 	
@@ -43,7 +45,11 @@ public class SearchPageTest extends BaseTest{
 		System.out.println("Title : " + search.getPageTitle());
 		System.out.println("URL : " + search.getCurrentUrl());
 		
-		Assert.assertFalse(
+		 ScreenshotUtility.captureScreenshot(
+		            driver,
+		            "Search_" + product);
+		
+		 Assert.assertFalse(
 		search.getPageTitle().isEmpty(),
 		"Search operation failed for : " + product);
 		

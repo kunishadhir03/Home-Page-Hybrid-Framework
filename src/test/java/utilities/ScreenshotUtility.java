@@ -11,11 +11,13 @@ public class ScreenshotUtility {
 	
 	public static String captureScreenshot(WebDriver driver , String testName) {
 		
-		String path = System.getProperty("user.dir") + "Screenshots" + testName + ".png";
+		String path = System.getProperty("user.dir") + "\\Screenshots\\" + testName + ".png";
 		
 		try {
 			
 			File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			
+			System.out.println("Screenshot method called");
 			
 			FileHandler.copy(src , new File(path)) ;
 		} 
