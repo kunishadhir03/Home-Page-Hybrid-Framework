@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-08T19:40:57 IST" name="DemoWebShopSuite" finished-at="2026-10-08T19:41:59 IST" duration-ms="61745">
+    <groups>
+    </groups>
+    <test started-at="2026-10-08T19:40:57 IST" name="HomePageTests" finished-at="2026-10-08T19:41:59 IST" duration-ms="61745">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:40:57 IST" name="setup" finished-at="2026-10-08T19:41:07 IST" duration-ms="10517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBooksMenu()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:07 IST" name="verifyBooksMenu" finished-at="2026-10-08T19:41:08 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBooksMenu -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:08 IST" name="teardown" finished-at="2026-10-08T19:41:08 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:08 IST" name="setup" finished-at="2026-10-08T19:41:16 IST" duration-ms="8228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:16 IST" name="verifyHomePageTitle" finished-at="2026-10-08T19:41:17 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:17 IST" name="teardown" finished-at="2026-10-08T19:41:18 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:18 IST" name="setup" finished-at="2026-10-08T19:41:24 IST" duration-ms="5866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchBox()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:24 IST" name="verifySearchBox" finished-at="2026-10-08T19:41:24 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBox -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@4f18837a]" started-at="2026-10-08T19:41:24 IST" name="teardown" finished-at="2026-10-08T19:41:25 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.SearchPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:25 IST" name="setup" finished-at="2026-10-08T19:41:31 IST" duration-ms="5075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:31 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:32 IST" duration-ms="1099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:32 IST" name="teardown" finished-at="2026-10-08T19:41:32 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:32 IST" name="setup" finished-at="2026-10-08T19:41:37 IST" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:37 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:38 IST" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:38 IST" name="teardown" finished-at="2026-10-08T19:41:39 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:39 IST" name="setup" finished-at="2026-10-08T19:41:44 IST" duration-ms="4904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:44 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:44 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:44 IST" name="teardown" finished-at="2026-10-08T19:41:44 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:44 IST" name="setup" finished-at="2026-10-08T19:41:51 IST" duration-ms="6714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:51 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:51 IST" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Computer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:51 IST" name="teardown" finished-at="2026-10-08T19:41:52 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:52 IST" name="setup" finished-at="2026-10-08T19:41:57 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:57 IST" name="productSearchTest" data-provider="SearchData" finished-at="2026-10-08T19:41:58 IST" duration-ms="1220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Camera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchPageTest@8f4ea7c]" started-at="2026-10-08T19:41:58 IST" name="teardown" finished-at="2026-10-08T19:41:59 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SearchPageTest -->
+    </test> <!-- HomePageTests -->
+  </suite> <!-- DemoWebShopSuite -->
+</testng-results>
