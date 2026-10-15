@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-DemoWebShopSuite" class="navigator-link">
-              <span class="suite-name border-passed">DemoWebShopSuite</span>
+              <span class="suite-name border-failed">DemoWebShopSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DemoWebShopSuite" class="hide-methods failed suite-DemoWebShopSuite"> (hide)</a> <!-- hide-methods failed suite-DemoWebShopSuite -->
+                      <a href="#" panel-name="suite-DemoWebShopSuite" class="show-methods failed suite-DemoWebShopSuite"> (show)</a> <!-- show-methods failed suite-DemoWebShopSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-DemoWebShopSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(xyz)">productSearchTest(xyz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest($%@&amp;)">productSearchTest($%@&)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Books)">productSearchTest(Books)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DemoWebShopSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,17 +128,12 @@
                     <div class="method-list-content passed suite-DemoWebShopSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Laptop)">productSearchTest(Laptop)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Computer)">productSearchTest(Computer)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Books)">productSearchTest(Books)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Camera)">productSearchTest(Camera)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,7 +143,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Camera)">productSearchTest(Camera)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Lap)">productSearchTest(Lap)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoWebShopSuite" title="tests.SearchPageTest" class="method navigator-link" hash-for-method="productSearchTest(Laptop)">productSearchTest(Laptop)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,6 +178,53 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DemoWebShopSuite" class="panel DemoWebShopSuite">
+          <div class="suite-DemoWebShopSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSearchTest(xyz)">
+                  </a> <!-- productSearchTest(xyz) -->
+                  <span class="method-name">productSearchTest</span>
+                  <span class="parameters">(xyz)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Warning Message Not Displayed expected [true] but found [false]
+	at tests.SearchPageTest.productSearchTest(SearchPageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSearchTest($%@&amp;)">
+                  </a> <!-- productSearchTest($%@&) -->
+                  <span class="method-name">productSearchTest</span>
+                  <span class="parameters">($%@&)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Warning Message Not Displayed expected [true] but found [false]
+	at tests.SearchPageTest.productSearchTest(SearchPageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSearchTest(Books)">
+                  </a> <!-- productSearchTest(Books) -->
+                  <span class="method-name">productSearchTest</span>
+                  <span class="parameters">(Books)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Warning Message Not Displayed expected [true] but found [false]
+	at tests.SearchPageTest.productSearchTest(SearchPageTest.java:62)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoWebShopSuite-class-failed -->
           <div class="suite-DemoWebShopSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -191,14 +262,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="productSearchTest(Laptop)">
-                  </a> <!-- productSearchTest(Laptop) -->
-                  <span class="method-name">productSearchTest</span>
-                  <span class="parameters">(Laptop)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="productSearchTest(Computer)">
                   </a> <!-- productSearchTest(Computer) -->
                   <span class="method-name">productSearchTest</span>
@@ -207,10 +270,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="productSearchTest(Books)">
-                  </a> <!-- productSearchTest(Books) -->
+                  <a name="productSearchTest(Camera)">
+                  </a> <!-- productSearchTest(Camera) -->
                   <span class="method-name">productSearchTest</span>
-                  <span class="parameters">(Books)</span>
+                  <span class="parameters">(Camera)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -223,10 +286,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="productSearchTest(Camera)">
-                  </a> <!-- productSearchTest(Camera) -->
+                  <a name="productSearchTest(Lap)">
+                  </a> <!-- productSearchTest(Lap) -->
                   <span class="method-name">productSearchTest</span>
-                  <span class="parameters">(Camera)</span>
+                  <span class="parameters">(Lap)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSearchTest(Laptop)">
+                  </a> <!-- productSearchTest(Laptop) -->
+                  <span class="method-name">productSearchTest</span>
+                  <span class="parameters">(Laptop)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -284,44 +355,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'productSearchTest')
 data.setCell(0, 2, 'tests.SearchPageTest')
-data.setCell(0, 3, 2078);
+data.setCell(0, 3, 41485);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'productSearchTest')
 data.setCell(1, 2, 'tests.SearchPageTest')
-data.setCell(1, 3, 1560);
+data.setCell(1, 3, 41466);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'productSearchTest')
 data.setCell(2, 2, 'tests.SearchPageTest')
-data.setCell(2, 3, 1409);
+data.setCell(2, 3, 41351);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'productSearchTest')
 data.setCell(3, 2, 'tests.SearchPageTest')
-data.setCell(3, 3, 1381);
+data.setCell(3, 3, 1936);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'productSearchTest')
 data.setCell(4, 2, 'tests.SearchPageTest')
-data.setCell(4, 3, 1295);
+data.setCell(4, 3, 1450);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyBooksMenu')
-data.setCell(5, 2, 'tests.HomePageTest')
-data.setCell(5, 3, 164);
+data.setCell(5, 1, 'productSearchTest')
+data.setCell(5, 2, 'tests.SearchPageTest')
+data.setCell(5, 3, 1287);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifySearchBox')
-data.setCell(6, 2, 'tests.HomePageTest')
-data.setCell(6, 3, 41);
+data.setCell(6, 1, 'productSearchTest')
+data.setCell(6, 2, 'tests.SearchPageTest')
+data.setCell(6, 3, 1275);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyHomePageTitle')
-data.setCell(7, 2, 'tests.HomePageTest')
-data.setCell(7, 3, 21);
+data.setCell(7, 1, 'productSearchTest')
+data.setCell(7, 2, 'tests.SearchPageTest')
+data.setCell(7, 3, 1271);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyBooksMenu')
+data.setCell(8, 2, 'tests.HomePageTest')
+data.setCell(8, 3, 134);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySearchBox')
+data.setCell(9, 2, 'tests.HomePageTest')
+data.setCell(9, 3, 46);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyHomePageTitle')
+data.setCell(10, 2, 'tests.HomePageTest')
+data.setCell(10, 3, 32);
 window.suiteTableData['DemoWebShopSuite']= { tableData: data, tableDiv: 'times-div-DemoWebShopSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-DemoWebShopSuite">
               </div> <!-- times-div-DemoWebShopSuite -->
             </div> <!-- times-div -->
@@ -354,98 +437,140 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBooksMenu</span>
-                <span class="method-start">8384 ms</span>
+                <span class="method-start">12604 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">8560 ms</span>
+                <span class="method-start">12749 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9052 ms</span>
+                <span class="method-start">13437 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitle</span>
-                <span class="method-start">15400 ms</span>
+                <span class="method-start">19745 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">15423 ms</span>
+                <span class="method-start">19782 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">15865 ms</span>
+                <span class="method-start">20395 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySearchBox</span>
-                <span class="method-start">22697 ms</span>
+                <span class="method-start">26756 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">22739 ms</span>
+                <span class="method-start">26803 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SearchPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">23952 ms</span>
+                <span class="method-start">27920 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productSearchTest(Laptop)</span>
-                <span class="method-start">29388 ms</span>
+                <span class="method-start">35367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">30687 ms</span>
+                <span class="method-start">36640 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">31160 ms</span>
+                <span class="method-start">36976 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">productSearchTest(Books)</span>
-                <span class="method-start">37964 ms</span>
+                <span class="method-start">43352 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">40045 ms</span>
+                <span class="method-start">84710 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">40880 ms</span>
+                <span class="method-start">85122 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productSearchTest(Desktop)</span>
-                <span class="method-start">46728 ms</span>
+                <span class="method-start">94980 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">48140 ms</span>
+                <span class="method-start">96918 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">48684 ms</span>
+                <span class="method-start">97523 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productSearchTest(Computer)</span>
-                <span class="method-start">54517 ms</span>
+                <span class="method-start">105197 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">56088 ms</span>
+                <span class="method-start">106648 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">56694 ms</span>
+                <span class="method-start">107053 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productSearchTest(Camera)</span>
-                <span class="method-start">62553 ms</span>
+                <span class="method-start">114141 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">63937 ms</span>
+                <span class="method-start">115429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">115858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productSearchTest(Lap)</span>
+                <span class="method-start">123460 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">124738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">125099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productSearchTest(xyz)</span>
+                <span class="method-start">132544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">174030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">174440 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">productSearchTest($%@&)</span>
+                <span class="method-start">181662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">223131 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
