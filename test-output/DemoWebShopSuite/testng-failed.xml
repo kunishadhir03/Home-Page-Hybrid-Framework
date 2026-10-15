@@ -3,6 +3,13 @@
 <suite name="Failed suite [DemoWebShopSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="HomePageTests(failed)">
     <classes>
+      <class name="tests.NewsletterTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyNewsletterSubscription"/>
+        </methods>
+      </class> <!-- tests.NewsletterTest -->
       <class name="tests.SearchPageTest">
         <methods>
           <include name="teardown"/>

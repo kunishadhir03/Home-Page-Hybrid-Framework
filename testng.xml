@@ -8,6 +8,16 @@
       
       <class name="tests.SearchPageTest"/>
       
+       <class name="tests.MenuNavigationTest"/>
+       
+        <class name="tests.NewsletterTest"/>
+        
+         <class name="tests.PopularTagsTest"/>
+         
+          <class name="tests.SearchPageTest"/>
+          
+           <class name="tests.FooterLinksTest"/>
+      
     </classes>
   </test> <!-- testng -->
 </suite> <!-- Suite -->
