@@ -13,20 +13,30 @@ public class ScreenshotUtility {
             WebDriver driver,
             String testName) {
 
+        if (testName == null || testName.trim().isEmpty()) {
+            testName = "BlankData";
+        }
+
+        String cleanedName =
+                testName.replaceAll("[^a-zA-Z0-9_-]", "");
+
+        if (cleanedName.isEmpty()) {
+            cleanedName = "SpecialCharacters";
+        }
+
         String path =
                 System.getProperty("user.dir")
-                + "\\Screenshots\\"
-                + testName
-                + ".png";
+                        + "\\Screenshots\\"
+                        + cleanedName
+                        + ".png";
 
         try {
 
             File folder = new File(
                     System.getProperty("user.dir")
-                    + "\\Screenshots");
+                            + "\\Screenshots");
 
-            if(!folder.exists()) {
-
+            if (!folder.exists()) {
                 folder.mkdirs();
             }
 
@@ -34,10 +44,11 @@ public class ScreenshotUtility {
                     ((TakesScreenshot) driver)
                             .getScreenshotAs(OutputType.FILE);
 
-            FileHandler.copy(src, new File(path));
+            FileHandler.copy(
+                    src,
+                    new File(path));
 
-        } catch(Exception e) {
-
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

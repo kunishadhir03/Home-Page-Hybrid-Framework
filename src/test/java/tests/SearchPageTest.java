@@ -2,6 +2,7 @@ package tests;
 
 import java.io.IOException;
 
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,7 +11,6 @@ import BaseTest.BaseTest;
 import pages.HomePage;
 import pages.SearchPage;
 import utilities.ExcelUtility;
-import utilities.ScreenshotUtility;
 
 public class SearchPageTest extends BaseTest {
 
@@ -23,32 +23,21 @@ public class SearchPageTest extends BaseTest {
     @Test(dataProvider = "SearchData")
     public void productSearchTest(String product) {
 
+        // Store product name for listener
+        org.testng.Reporter.getCurrentTestResult()
+                .setAttribute("productName", product);
+
         HomePage home = new HomePage(driver);
 
         home.searchProduct(product);
 
         SearchPage search = new SearchPage(driver);
 
-        System.out.println(
-                "Searching Product : "
-                        + product);
+        System.out.println("Searching Product : " + product);
 
-        System.out.println(
-                "Current URL : "
-                        + search.getCurrentUrl());
+        if (search.isProductDisplayed()) {
 
-        System.out.println(
-                "Page Title : "
-                        + search.getPageTitle());
-
-        ScreenshotUtility.captureScreenshot(
-                driver,
-                "Search_" + product);
-
-        if(search.isProductDisplayed()) {
-
-            System.out.println(
-                    "Valid Product Found");
+            System.out.println("Valid Product Found");
 
             Assert.assertTrue(
                     search.getResultCount() > 0,
@@ -56,8 +45,7 @@ public class SearchPageTest extends BaseTest {
 
         } else {
 
-            System.out.println(
-                    "No Product Found");
+            System.out.println("No Product Found");
 
             Assert.assertTrue(
                     search.isWarningDisplayed(),
